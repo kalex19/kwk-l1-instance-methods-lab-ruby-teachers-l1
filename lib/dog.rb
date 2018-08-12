@@ -5,16 +5,16 @@ class Dog
     @name = name
   end
   
-  def speak(bark)
+  def bark
     puts "#{bark}"
   end
   
-  def move(sit)
+  def sit
     puts "The Dog is #{sit}ing."
   end
 end
 
 fido = Dog.new("Fido")
-fido.speak("Woof!")
-fido.move("sit")
+fido.bark("Woof!")
+fido.sit("sit")
 
